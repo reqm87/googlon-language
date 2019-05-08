@@ -31,6 +31,7 @@ As an example, the Googlon word gxjrc represents the number 605637.
 Googlons consider a number to be pretty if it satisfies all of the following properties:
 
 **-** It is greater than or equal to 81827
+
 **-** It is divisible by 3
 
 ### The Challenge
@@ -38,9 +39,13 @@ Googlons consider a number to be pretty if it satisfies all of the following pro
 Write a program (in any language) that answers the following questions to a given Googlon text:
 
 **1)** How many prepositions are there in the text?
+
 **2)** How many verbs are there in the text?
+
 **3)** How many of those verbs in the text are in the subjunctive form?
+
 **4)** Generate a vocabulary list with distinct words ordered Googlon's alphabetical order.
+
 **5)** How many distinct pretty numbers are in the text?
 
 Use the test cases to validate your algorithm.
