@@ -48,7 +48,7 @@ Write a program (in any language) that answers the following questions to a give
 
 **5)** How many distinct pretty numbers are in the text?
 
-Use the test cases from **code_challenge.pdf** to validate your algorithm.
+Use the test cases from **code_challenge.pdf** to validate the algorithm.
 
 ## Solution
 
@@ -58,12 +58,51 @@ Use the test cases from **code_challenge.pdf** to validate your algorithm.
 
 Installation: https://git-scm.com/downloads
 
-### Clone Repository and Run the Application
++ Docker version 18.09.0
+
+Installation: https://docs.docker.com/install/#server
+
++ docker-compose version 1.23.2
+
+Installation: https://docs.docker.com/compose/install/#prerequisites
+
+### Clone Repository and Build the Application
 
 + Clone the solution repository.
 
-+ To execute the application, please run the following command:
++ Access the solution directory with the following command:
 
 ```bash
+cd SOLUTION_DIRECTORY
+```
+
++ Build the application, running the following command:
+
+```bash
+sudo docker-compose build
+```
+
+### Run for first time the Application
+
++ To start for first time the application, please run the following command:
+
+```bash
+sudo docker-compose up -d
+```
+
+### Run the Application
+
+You have two ways to run the application.
+
+First way, please run the following commands:
+
+```bash
+sudo docker-compose exec app bash
 python googlon.py
+```
+
+Second way, please run the following command:
+
+```bash
+sudo docker-compose exec app bash -c 'python googlon.py'
 ```
