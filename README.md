@@ -48,7 +48,7 @@ Write a program (in any language) that answers the following questions to a give
 
 **5)** How many distinct pretty numbers are in the text?
 
-Use the test cases to validate your algorithm.
+Use the test cases from **code_challenge.pdf** to validate your algorithm.
 
 ## Solution
 
