@@ -9,3 +9,6 @@ __pycache__/
 
 # Visual Studio Code
 *.vscode
+
+# Local Files
+.DS_Store
